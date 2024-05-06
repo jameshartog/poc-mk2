@@ -1,0 +1,17 @@
+.Paragraph {
+    margin: 0;
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    font-family: Arial;
+    text-align: left;
+}  
+
+.Header {
+    margin: 0;
+    background-color: #282c34;
+    color: white;
+    padding: 10px;
+    font-family: Arial;
+    text-align: left;
+}
