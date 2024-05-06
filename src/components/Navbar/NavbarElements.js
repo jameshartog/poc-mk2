@@ -14,7 +14,7 @@ export const Nav = styled.nav`
 `;
 
 export const NavLink = styled(Link)`
-    color: #137751;
+    color: #31594A;
     display: flex;
     align-items: center;
     text-decoration: flex;
@@ -23,7 +23,7 @@ export const NavLink = styled(Link)`
     cursor: pointer;
     font-weight: bold;
     &.active {
-        color: #BF0D59;
+        color: #802D51;
         font-weight: bolder;
     }
 `;
