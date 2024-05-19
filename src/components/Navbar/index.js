@@ -19,6 +19,9 @@ const Navbar = () => {
                     <NavLink to="/about" tabIndex={2}>
                         About
                     </NavLink>
+                    <NavLink to="/space" tabIndex={3}>
+                        Space
+                    </NavLink>
                 </NavMenu>
             </Nav>
         </>
