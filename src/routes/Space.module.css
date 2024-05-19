@@ -1,17 +1,68 @@
 .Paragraph {
     margin: 0;
-    background-color: #282c34;
+    background-color: #100d1b;
     color: white;
     padding: 20px;
+    padding-left: 12%;
+    padding-right: 12%;
     font-family: Arial;
     text-align: left;
 }  
 
+.SubHeader {
+    margin: 0;
+    background-color: #100d1b;
+    color: white;
+    padding: 20px;
+    font-family: Arial;
+    text-align: center;
+} 
+
 .Header {
     margin: 0;
-    background-color: #282c34;
+    background-color: #020918;
     color: white;
     padding: 10px;
+    font-family: Arial;
+    text-align: center;
+}
+
+.Wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 10px;
+    background-color: #020918;
+    max-width: 1080px;
+}
+
+.Photo {
+    width: 75%;
+    height: 75%;
+}
+
+.Center {
+    display: flex;
+    background-color: #100d1b;
+    justify-content: center;
+}
+
+.Background {
+    background-color: #020918;
+}
+
+.Content {
+    display: flex;
+    justify-content: center;
+}
+
+.Credits {
+    margin: 0;
+    background-color: #100d1b;
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 12%;
+    padding-right: 12%;
     font-family: Arial;
     text-align: left;
 }
