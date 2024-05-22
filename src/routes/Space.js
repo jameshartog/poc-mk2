@@ -20,7 +20,7 @@ const Space = () => {
             <body>
                 <h4 className={styles.SubHeader}>Hubble's View of a Trinary of Stars</h4>
                 <div className={styles.Center}><img src={process.env.PUBLIC_URL + '/trinary_stars.jpg'} className={styles.Photo} alt="star cluster"/></div>
-                <p className={styles.Paragraph}>"a trio of dazzling stars blaze from the hollowed-out cavity of a reflection nebula... The triple-star system is made up of the variable star HP Tau, HP Tau G2, and HP Tau G3."</p>
+                <p className={styles.Paragraph}>"A trio of dazzling stars blaze from the hollowed-out cavity of a reflection nebula... The triple-star system is made up of the variable star HP Tau, HP Tau G2, and HP Tau G3."</p>
                 <p className={styles.Credits}>Credits: NASA, ESA, G. Duchene (Universite de Grenoble I); Image Processing: Gladys Kober (NASA/Catholic University of America)</p>
             </body> 
 
